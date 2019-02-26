@@ -18,7 +18,7 @@
      - name: Démarrer le service Apache
        service:
         name: apache2
-        state: started
+        state: started 
         enabled: yes
         
      - name: Enregistrer une clé
